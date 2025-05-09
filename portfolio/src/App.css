@@ -298,6 +298,7 @@
       #about_img {
         rotate: -4deg;
         padding: 20px;
+        padding-right: 1px;
         padding-top: 0;
         margin-top: 0;
         
@@ -321,28 +322,103 @@
   
     }
   
+    /* .projects-count {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      height: auto; 
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      background-color: rgb(207, 135, 135);
+    } */
+
     .projects-count {
       margin-top: 20px;
       display: flex;
       flex-direction: row;
-      max-width: 100%;
-      height: auto; 
+      width: auto;
+      height: auto;
       align-items: center;
-      justify-content: space-around
+      justify-content: center;
+      gap: 30px;
+    }
+
+    /* For tablets and smaller laptops */
+    @media (max-width: 2000px) {
+      .projects-count {
+        gap: 30px; /* Reduce the gap for smaller screens */
+        padding: 10px; /* Add some padding for better spacing */
+      }
+    }
+
+    @media (max-width: 2000px) {
+      .project_icon {
+        height: 50px !important;
+        width: 50px !important;
+      }
+    }
+
+    /* For mobile devices */
+    @media (max-width: 768px) {
+      .projects-count {
+        flex-direction: row; 
+        gap: 15px; /* Reduce the gap further */
+        padding: 10px; /* Add padding for better spacing */
+      }
+    }
+
+    /* For very small devices (e.g., small phones) */
+    @media (max-width: 480px) {
+      .project_icon {
+        height: 10px; /* Adjust icon size for smaller screens */
+        width: 10px; /* Adjust icon size for smaller screens */
+      }
+      .projects-count {
+        gap: 8px; /* Further reduce the gap */
+        padding: 5px; /* Adjust padding for smaller screens */
+      }
+    }
+    @media (max-width: 420px) {
+      .projects-count {
+        gap: 15px; 
+        padding: 5px; 
+      }
+    }
+
+    @media (max-width: 420px) {
+      .project_icon {
+        height: 30px !important;
+        width: 30px !important;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .project_icon {
+        height: 20px; /* Adjust icon size for smaller screens */
+        width: 20px; /* Adjust icon size for smaller screens */
+      }
+  /* Your CSS styles for devices with a max-width of 390px go here */
+    .projects-count {
+        flex-direction: row; 
+        gap: 5px; /* Reduce the gap further */
+        padding: 5px; /* Adjust padding for smaller screens */
+        padding-right: 0;
+        margin-left: 0;
+      }
     }
   
     .project_icon {
-      height: 10%;
-      width: 10%;
-      margin-left: 10px;
-      margin-right: 10px;
+      height: 20px;
+      width: 20px;
     }
   
     .Project_No {
-      margin-top: 12px;
+      margin-top: 14px;
       height: 100%;
       font-weight: bold;
-      font-size: 32px;
+      font-size: 18px;
       color: rgb(183, 183, 183);
       
     }
@@ -421,6 +497,11 @@
     .D_Name:hover {
       color: rgb(255, 225, 104);
       transform: scale(1.1);
+    }
+
+    .skill_icon {
+      width: 50px;
+      height: 50px;
     }
   
     .Skills-Div {

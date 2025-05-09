@@ -19,7 +19,7 @@ const Contact = () => {
                 <span class="fas fa-map-marker-alt"></span>
               </div>
               <h3 className="mb-4">Address</h3>
-              <p>Kamareddy, India</p>
+              <p>Hyderabad, India</p>
             </div>
           </div>
           <div className="col-md-6 col-lg-3 d-flex ftco-">

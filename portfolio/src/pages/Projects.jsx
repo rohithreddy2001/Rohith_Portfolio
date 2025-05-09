@@ -1,20 +1,21 @@
 // --- Projects.jsx ---
 import React from 'react';
 import projectsData from '../data/projectsData';
-import ExcelImg from '../assets/images/Excel.png';
+// import ExcelImg from '../assets/images/Excel.png';
 import PowerBIImg from '../assets/images/powerBi.png';
-import MySQLImg from '../assets/images/database.png';
-import PythonImg from '../assets/images/python.png';
-import LinkedinImg from '../assets/images/linkedin.png';
-import GithubImg from '../assets/images/github.png';
-import YoutubeImg from '../assets/images/youtube.png';
+// import MySQLImg from '../assets/images/database.png';
+// import PythonImg from '../assets/images/python.png';
+// import LinkedinImg from '../assets/images/linkedin.png';
+// import GithubImg from '../assets/images/github.png';
+// import YoutubeImg from '../assets/images/youtube.png';
 
 
 const Projects = () => {
   const excelCount = projectsData.filter(project => project.skills.includes('Excel')).length;
   const powerBICount = projectsData.filter(project => project.skills.includes('Power BI')).length;
   const mySQLCount = projectsData.filter(project => project.skills.includes('MySQL')).length;
-  const pythonCount = projectsData.filter(project => project.skills.includes('Pandas')).length;
+  const pythonCount = projectsData.filter(project => project.skills.includes('Pandas') || project.skills.includes('Flask')).length;
+  const reactCount = projectsData.filter(project => project.skills.includes('React')).length;
   return (
     <section className="ftco-section" id="project-section">
       <div className="container">
@@ -25,14 +26,16 @@ const Projects = () => {
             <p>Below are the Data Analytics projects on Excel, Power BI, MySQL & Python.</p>
           </div>
           <div className="projects-count">
-            <img src={ExcelImg} className="project_icon" alt="Skill 1" />
+            <img src="https://cdn.worldvectorlogo.com/logos/microsoft-excel-2013.svg" alt="Excel" width="32" className='project_icon'/>
             <p className="Project_No">{excelCount}</p>
             <img src={PowerBIImg} className="project_icon" alt="Skill 2" />
             <p className="Project_No">{powerBICount}</p>
-            <img src={MySQLImg} className="project_icon" alt="Skill 3" />
+            <img src="https://www.mysql.com/common/logos/mysql-logo.svg" alt="MySQL" width="32" className='project_icon'/>
             <p className="Project_No">{mySQLCount}</p>
-            <img src={PythonImg} className="project_icon" alt="Skill 4" />
+            <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python" width="32" className='project_icon'/>
             <p className="Project_No">{pythonCount}</p>
+            <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React" width="32" className='project_icon'/>
+            <p className='Project_No'>{reactCount}</p>
           </div>
         </div>
       </div>
@@ -69,21 +72,21 @@ const Projects = () => {
                     {project.links.linkedin && (
                       <button className="Linkidin-post">
                         <a href={project.links.linkedin} target="_blank" rel="noopener noreferrer" className="Linkidin-post">
-                          LinkedIn Engagement <img src={LinkedinImg} className="button-img" alt="LinkedIn" />
+                          LinkedIn Engagement <span class="fab fa-linkedin"></span>
                         </a>
                       </button>
                     )}
                     {project.links.github && (
                       <button className="Github-file">
                         <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="Github-file">
-                          GitHub <img src={GithubImg} className="button-img" alt="GitHub" />
+                          GitHub <span className="fab fa-github"></span>
                         </a>
                       </button>
                     )}
                     {project.links.youtube && (
                       <button className="utube-vedio">
                         <a href={project.links.youtube} target="_blank" rel="noopener noreferrer" className="utube-vedio">
-                          Video Presentation <img src={YoutubeImg} className="button-img" alt="YouTube" />
+                          Video Presentation <span class="fab fa-youtube"></span>
                         </a>
                       </button>
                     )}

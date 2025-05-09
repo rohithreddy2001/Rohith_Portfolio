@@ -176,7 +176,7 @@ const projectsData = [
   {
     title: "Consumer Goods Ad-Hoc Insights",
     domain: "Consumer Goods",
-    skills: ["SQL", "Excel", "Power Point"],
+    skills: ["MySQL", "Excel", "Power Point"],
     description: "The Consumer Goods Ad-Hoc Insights highlights key metrics for a consumer goods company. 'Atliq Exclusive' operates in several APAC countries, with a 36.33% growth in unique products from 2020 to 2021. Notebooks and Accessories dominate, while Desktops saw the highest growth (214.29%). Retailers contributed 73.22% of sales, and Flipkart led in discounts.",
     links: {
       live_link: "https://1drv.ms/p/c/15327854129f0578/EdPZpwUuazdOnM-4qordI5MBr_K52mHvXR0XJWXDT3nWgg",
