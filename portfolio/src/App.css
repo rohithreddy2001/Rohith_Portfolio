@@ -355,58 +355,289 @@
 
     @media (max-width: 2000px) {
       .project_icon {
-        height: 50px !important;
-        width: 50px !important;
+        height: 70px !important;
+        width: 70px !important;
+      }
+
+      .projects-count {
+        gap: 40px; /* Further reduce the gap */
+        padding: 5px; /* Adjust padding for smaller screens */
+      }
+
+      .Project_No {
+      margin-top: 14px;
+      height: 100%;
+      font-weight: bold;
+      font-size: 28px !important;
+      color: rgb(183, 183, 183);
+      
+    }
+      
+    }
+
+    @media (max-width: 775px) {
+      .project_icon {
+        height: 40px !important;
+        width: 40px !important;
+      }
+
+      .projects-count {
+        gap: 30px !important; /* Further reduce the gap */
+        padding: 5px; /* Adjust padding for smaller screens */
+      }
+
+      .Project_No {
+        margin-top: 14px;
+        height: 100%;
+        font-weight: bold;
+        font-size: 24px !important;
+        color: rgb(183, 183, 183);
+      }
+
+      .Linkedin-post { /* Fixed typo: Linkidin-post -> Linkedin-post */
+        width: 100%;
+        height: 50%;
+        font-size: 8px !important;
+        font-weight: 500;
+        font-family: system-ui;
+        padding-left: 2px;
+        color: #ffffff;
+        background-color: rgb(10, 102, 194);
+        cursor: pointer;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .utube-video, .Github-file { /* Fixed typo: utube-vedio -> utube-video */
+        font-size: 9px !important;
+      }
+
+      .Domain, .D_Name, .Skills, .Skill_Name1, .Skill_Name2, .Skill_Name3 {
+        font-size: 9px !important;
       }
     }
 
-    /* For mobile devices */
-    @media (max-width: 768px) {
-      .projects-count {
-        flex-direction: row; 
-        gap: 15px; /* Reduce the gap further */
-        padding: 10px; /* Add padding for better spacing */
+    @media (max-width: 1024px) {
+      .project_icon {
+        height: 60px !important;
+        width: 60px !important;
       }
+      .projects-count {
+        gap: 40px; /* Further reduce the gap */
+        padding: 5px; /* Adjust padding for smaller screens */
+      }
+
+      .Project_No {
+      margin-top: 14px;
+      height: 100%;
+      font-weight: bold;
+      font-size: 26px !important;
+      color: rgb(183, 183, 183);
+      
+    }
+
+    .Linkidin-post {
+      width: 100%;
+      height: 50%;
+      font-size: 9px !important;
+      font-weight: 500;
+      font-family: system-ui;
+      padding-left: 2px;
+      color: #ffffff;
+      background-color: rgb(10, 102, 194);
+      cursor: pointer;
+      text-align:center;
+      border: none;
+      border-radius: 5px;
+    }
+    .utube-vedio,.Github-file {
+      font-size: 9px !important;
+    }
+
+    .Domain, .D_Name, .Skills, .Skill_Name1, .Skill_Name2, .Skill_Name3 {
+      font-size: 9px !important;
+    }
     }
 
     /* For very small devices (e.g., small phones) */
-    @media (max-width: 480px) {
+    @media (max-width: 440px) {
       .project_icon {
-        height: 10px; /* Adjust icon size for smaller screens */
-        width: 10px; /* Adjust icon size for smaller screens */
+        height: 32px !important;
+        width: 32px !important;
       }
       .projects-count {
-        gap: 8px; /* Further reduce the gap */
+        gap: 16px; /* Further reduce the gap */
         padding: 5px; /* Adjust padding for smaller screens */
       }
+
+      .Project_No {
+      margin-top: 14px;
+      height: 100%;
+      font-weight: bold;
+      font-size: 16px !important;
+      color: rgb(183, 183, 183);
+      
     }
-    @media (max-width: 420px) {
-      .projects-count {
-        gap: 15px; 
-        padding: 5px; 
-      }
+
+    .Linkidin-post {
+      width: 100%;
+      height: 50%;
+      font-size: 10px !important;
+      font-weight: 500;
+      font-family: system-ui;
+      padding-left: 2px;
+      color: #ffffff;
+      background-color: rgb(10, 102, 194);
+      cursor: pointer;
+      text-align:center;
+      border: none;
+      border-radius: 5px;
+    }
+    .utube-vedio,.Github-file {
+      font-size: 10px !important;
+    }
+
+    .Domain, .D_Name, .Skills, .Skill_Name1, .Skill_Name2, .Skill_Name3 {
+      font-size: 10px !important;
+    }
     }
 
     @media (max-width: 420px) {
-      .project_icon {
-        height: 30px !important;
-        width: 30px !important;
+      .projects-count {
+        gap: 16px; 
+        padding: 5px; 
       }
+
+      .project_icon {
+        height: 32px !important;
+        width: 32px !important;
+      }
+
+      .Project_No {
+      margin-top: 14px;
+      height: 100%;
+      font-weight: bold;
+      font-size: 16px !important;
+      color: rgb(183, 183, 183);
+      
+    }
+
+    .Linkidin-post {
+      width: 100%;
+      height: 50%;
+      font-size: 10px !important;
+      font-weight: 500;
+      font-family: system-ui;
+      padding-left: 2px;
+      color: #ffffff;
+      background-color: rgb(10, 102, 194);
+      cursor: pointer;
+      text-align:center;
+      border: none;
+      border-radius: 5px;
+    }
+    .utube-vedio,.Github-file {
+      font-size: 10px !important;
+    }
+
+    .Domain, .D_Name, .Skills, .Skill_Name1, .Skill_Name2, .Skill_Name3 {
+      font-size: 10px !important;
+    }
     }
 
     @media (max-width: 400px) {
-      .project_icon {
-        height: 20px; /* Adjust icon size for smaller screens */
-        width: 20px; /* Adjust icon size for smaller screens */
+      
+    .project_icon {
+        height: 25px !important;
+        width: 25px !important;
       }
-  /* Your CSS styles for devices with a max-width of 390px go here */
+  
     .projects-count {
         flex-direction: row; 
-        gap: 5px; /* Reduce the gap further */
+        gap: 18px; /* Reduce the gap further */
         padding: 5px; /* Adjust padding for smaller screens */
         padding-right: 0;
         margin-left: 0;
       }
+
+    .Project_No {
+      margin-top: 14px;
+      height: 100%;
+      font-weight: bold;
+      font-size: 14px !important;
+      color: rgb(183, 183, 183);
+      
+    }
+
+    .Linkidin-post {
+      width: 100%;
+      height: 50%;
+      font-size: 10px !important;
+      font-weight: 500;
+      font-family: system-ui;
+      padding-left: 2px;
+      color: #ffffff;
+      background-color: rgb(10, 102, 194);
+      cursor: pointer;
+      text-align:center;
+      border: none;
+      border-radius: 5px;
+    }
+    .utube-vedio,.Github-file {
+      font-size: 10px !important;
+    }
+
+    .Domain, .D_Name, .Skills, .Skill_Name1, .Skill_Name2, .Skill_Name3 {
+      font-size: 10px !important;
+    }
+    }
+
+    @media (max-width: 380px) {
+      
+    .project_icon {
+        height: 25px !important;
+        width: 25px !important;
+      }
+  
+    .projects-count {
+        flex-direction: row; 
+        gap: 15px !important; /* Reduce the gap further */
+        padding: 5px; /* Adjust padding for smaller screens */
+        padding-right: 0;
+        margin-left: 0;
+      }
+
+    .Project_No {
+      margin-top: 14px;
+      height: 100%;
+      font-weight: bold;
+      font-size: 14px !important;
+      color: rgb(183, 183, 183);
+      
+    }
+
+    .Linkidin-post {
+      width: 100%;
+      height: 50%;
+      font-size: 9px !important;
+      font-weight: 500;
+      font-family: system-ui;
+      padding-left: 2px;
+      color: #ffffff;
+      background-color: rgb(10, 102, 194);
+      cursor: pointer;
+      text-align:center;
+      border: none;
+      border-radius: 5px;
+    }
+    .utube-vedio,.Github-file {
+      font-size: 9px !important;
+    }
+
+    .Domain, .D_Name, .Skills, .Skill_Name1, .Skill_Name2, .Skill_Name3 {
+      font-size: 9px !important;
+    }
     }
   
     .project_icon {
