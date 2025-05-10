@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import BackgroundImg from "../assets/images/homeIcon.png";
+import BackgroundImg from "../assets/images/homeImage.png";
 
 const Home = () => {
   useEffect(() => {
