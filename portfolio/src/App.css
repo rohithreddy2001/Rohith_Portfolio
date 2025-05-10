@@ -467,7 +467,7 @@
         width: 32px !important;
       }
       .projects-count {
-        gap: 16px; /* Further reduce the gap */
+        gap: 18px !important; /* Further reduce the gap */
         padding: 5px; /* Adjust padding for smaller screens */
       }
 
@@ -505,7 +505,7 @@
 
     @media (max-width: 420px) {
       .projects-count {
-        gap: 16px; 
+        gap: 15px !important; 
         padding: 5px; 
       }
 
@@ -518,7 +518,7 @@
       margin-top: 14px;
       height: 100%;
       font-weight: bold;
-      font-size: 16px !important;
+      font-size: 18px !important;
       color: rgb(183, 183, 183);
       
     }
@@ -638,6 +638,11 @@
     .Domain, .D_Name, .Skills, .Skill_Name1, .Skill_Name2, .Skill_Name3 {
       font-size: 9px !important;
     }
+
+    .navbar-brand {
+      font-size: 1.1rem !important;
+    }
+    
     }
   
     .project_icon {
