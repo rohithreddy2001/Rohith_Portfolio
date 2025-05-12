@@ -21,9 +21,8 @@ const Projects = () => {
       <div className="container">
         <div className="projects-row justify-content-center mb-5 pb-5" id="projects">
           <div className="col-md-7 heading-section text-center">
-            <h1 className="big big-2">Projects</h1>
             <h2 className="mb-4">Projects</h2>
-            <p>Below are the Data Analytics projects on Excel, Power BI, MySQL & Python.</p>
+            <p>Below are the projects on different technologies.</p>
           </div>
           <div className="projects-count">
             <img src="https://cdn.worldvectorlogo.com/logos/microsoft-excel-2013.svg" alt="Excel" width="32" className='project_icon'/>

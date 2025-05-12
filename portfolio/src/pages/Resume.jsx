@@ -6,7 +6,6 @@ const Resume = () => {
       <div className="container">
         <div className="row justify-content-center pb-5">
           <div className="col-md-10 heading-section text-center ftco-">
-            <h1 className="big big-2">Resume</h1>
             <h2 className="mb-4">Resume</h2>
             <p>
               Passionate about turning data into actionable insights and excited to bring my skills in
@@ -47,7 +46,7 @@ const Resume = () => {
           <div className="col-md-6 text-center ftco-">
             <p>
               <a
-                href="https://drive.google.com/file/d/10qcN3_z4IcVd2aDvTMjJtuavRT0l42-_/view?usp=sharing"
+                href="https://drive.google.com/file/d/12GKHTPt7RWt3_CprFimWCaJDVIE3QuJB/view?usp=sharing"
                 className="btn btn-primary py-4 px-5"
               >
                 View Resume

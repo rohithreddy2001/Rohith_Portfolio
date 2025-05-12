@@ -49,7 +49,7 @@ const About = () => {
                           <span className="title-s">Name: </span> <span>Rohith Reddy Rudraiah Gari</span>
                         </p>
                         <p>
-                          <span className="title-s">DOB: </span> <span>15/June/2001</span>
+                          <span className="title-s">DOB: </span> <span>15 June 2001</span>
                         </p>
                         <p>
                           <span className="title-s">Age: </span> <span>{age}</span>
@@ -64,12 +64,14 @@ const About = () => {
                   <div className="skill-mf">
                     <p className="title-s">Skills</p>
                     {[
-                      { skill: 'MYSQL', percentage: 75 },
-                      { skill: 'PYTHON', percentage: 75 },
+                      { skill: 'MySQL', percentage: 80 },
+                      { skill: 'Python', percentage: 75 },
                       { skill: 'Java', percentage: 65 },
                       { skill: 'Data Visualization', percentage: 80 },
                       { skill: 'Statistical Analysis', percentage: 70 },
                       { skill: 'React.Js', percentage: 75 },
+                      { skill: 'Flask', percentage: 70 },
+                      
                     ].map(({ skill, percentage }) => (
                       <div key={skill}>
                         <span>{skill}</span> <span className="pull-right">{percentage}%</span>
@@ -93,23 +95,23 @@ const About = () => {
             <div className="col-md-6 col-lg-7 pl-lg-5 pb-5">
               <div className="row justify-content-start pb-3">
                 <div className="col-md-12 heading-section">
-                  <h1 className="big">About</h1>
                   <h2 className="mb-4">About Me</h2>
-                  <p>
-                    Recent graduate with a B.Tech. in Computer Science & Engineering from CMR College of
-                    Engineering & Technology, seeking to leverage my academic knowledge and project
-                    experience in data analysis to contribute to data-driven decisions. I am passionate
-                    about turning data into actionable insights and excited to bring my skills in
-                    statistical analysis and data visualization.
+                  <p style={{textAlign: 'left', padding: 0, margin: 0}}>
+                    Recent B.Tech. graduate in Computer Science & Engineering from CMR College of Engineering & Technology, 
+                    eager to apply my expertise in software development, artificial intelligence, and data analysis to drive innovative solutions. 
+                    Proficient in programming, machine learning, and statistical modeling, I am passionate about building scalable software, 
+                    developing intelligent systems, and transforming data into actionable insights. 
+                    With hands-on project experience in coding, AI model development, and data visualization, 
+                    I am excited to contribute to technology-driven decision-making and business success.
                   </p>
                   <ul className="about-info mt-4 px-md-0 px-2">
                     <li className="d-flex">
-                      <span>Profile:</span> <span>Data Analytics</span>
+                      <span>Profile:</span> <span>Data Analytics, Software Engineering, and AI Engineering</span>
                     </li>
                     <li className="d-flex">
                       <span>Domain:</span>{' '}
                       <span>
-                        Hospitality, Automotive, FMCG, E-commerce, Human Resources &amp; Sports
+                        Retail Technology, FinTech, FMCG, E-commerce, Human Resources &amp; Sports
                       </span>
                     </li>
                     <li className="d-flex">
@@ -123,7 +125,7 @@ const About = () => {
                     </li>
                     <li className="d-flex">
                       <span>Other Skills:</span>{' '}
-                      <span>Excel, Git, Python (Pandas, NumPy, Matplotlib)</span>
+                      <span>Excel, Git, Fast API, Spring Boot</span>
                     </li>
                     <li className="d-flex">
                       <span>Interest:</span> <span>Traveling, Cricket</span>
@@ -136,23 +138,10 @@ const About = () => {
                 <div className="text">
                   <p className="mb-4">
                     <span className="number">
-                      {projectsData.length}
+                      <span>Projects: </span>{projectsData.length} <span>| Certifications: </span>{certificationsData.length}
                     </span>
-                    <span>&nbsp; Projects &</span>
-                    &nbsp;
-                    <span className="number">
-                      {certificationsData.length}
-                    </span>
-                    <span>&nbsp; Certifications completed</span>
                   </p>
-                  <p>
-                    <a
-                      href="https://www.linkedin.com/in/rohithreddyrudraiahgari/"
-                      className="btn btn-primary py-3 px-3"
-                    >
-                      LinkedIn
-                    </a>
-                  </p>
+            
                 </div>
               </div>
             </div>

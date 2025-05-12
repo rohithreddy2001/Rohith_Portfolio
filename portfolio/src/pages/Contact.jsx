@@ -6,7 +6,6 @@ const Contact = () => {
       <div className="container">
         <div className="row justify-content-center mb-5 pb-3">
           <div className="col-md-7 heading-section text-center ftco-">
-            <h1 className="big big-2">Contact</h1>
             <h2 className="mb-4">Contact Me</h2>
             <p>Below are the details to reach out to me!</p>
           </div>
@@ -47,7 +46,7 @@ const Contact = () => {
               </div>
               <h3 className="mb-4">Resume Template</h3>
               <p>
-                <a href="https://docs.google.com/document/d/10nE7UOTyoLfAUoPO8z7_rIUBJT_4G_AD/edit?usp=sharing&ouid=102573090555690618207&rtpof=true&sd=true">
+                <a href="https://docs.google.com/document/d/1wfU16zlvp8dF106P_0HjJyL-g11uJDz0/edit?usp=sharing&ouid=102573090555690618207&rtpof=true&sd=true">
                   Download link 🔗
                 </a>
               </p>

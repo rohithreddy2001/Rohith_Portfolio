@@ -7,7 +7,6 @@ const Certifications = () => {
       <div className="container">
         <div className="row justify-content-center mb-5 pb-5">
           <div className="col-md-7 heading-section text-center">
-            <h1 className="big big-2">Certifications</h1>
             <h2 className="mb-4">Certificates</h2>
             <p>Below are the certifications I have earned in various technologies.</p>
           </div>
