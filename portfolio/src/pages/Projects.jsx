@@ -35,6 +35,7 @@ const Projects = () => {
             <p className="Project_No">{pythonCount}</p>
             <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React" width="32" className='project_icon'/>
             <p className='Project_No'>{reactCount}</p>
+            
           </div>
         </div>
       </div>

@@ -732,7 +732,7 @@
     }
     .D_Name:hover {
       color: rgb(255, 225, 104);
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
 
     .skill_icon {
@@ -776,7 +776,7 @@
     }
   
     .Skill_Name1:hover,.Skill_Name2:hover,.Skill_Name3:hover {
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
   
     .Linkidin-post,.Github-file,.utube-vedio {

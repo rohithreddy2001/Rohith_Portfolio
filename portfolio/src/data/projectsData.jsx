@@ -14,6 +14,7 @@ import Project12Img from '../assets/images/Proj_12.png';
 import Project1Img from '../assets/images/proj_1.png';
 import Project6Img from '../assets/images/proj_6.png';
 import Project15Img from '../assets/images/Proj_15.png';
+import Project16Img from '../assets/images/Proj_16.png';
 
 
 const projectsData = [
@@ -41,6 +42,17 @@ const projectsData = [
       github: "https://github.com/rohithreddy2001/TATA_Online_Retail_Performance_Analysis.git"
     },
     image: Project13Img
+  },
+  {
+    title: "Stock Portfolio Analysis and Forecasting",
+    domain: "FinTech",
+    skills: ["Machine Learning", "Pandas"],
+    description: "Analyzed stock market data using Python/Pandas, forecasting portfolio values with machine learning. Processed JSON data, automating extraction to Excel for 350+ stocks. Applied statistical models (OLS, polynomial regression, exponential smoothing), achieving 59.76% prediction accuracy. Visualized trends with Plotly, leveraging RSI and moving averages for insights. These insights empower investors to optimize stock selection and enhance portfolio performance.",
+    links: {
+      live_link: "https://github.com/rohithreddy2001/Stock-Portfolio-Forecasting-with-Statistical-Modeling/blob/main/Stock%20Portfolio%20NoteBook.ipynb",
+      github: "https://github.com/rohithreddy2001/Stock-Portfolio-Forecasting-with-Statistical-Modeling"
+    },
+    image: Project16Img
   },
   {
     title: "GoodCabs Transportation Analysis",

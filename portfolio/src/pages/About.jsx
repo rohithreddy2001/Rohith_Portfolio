@@ -125,7 +125,7 @@ const About = () => {
                     </li>
                     <li className="d-flex">
                       <span>Other Skills:</span>{' '}
-                      <span>Excel, Git, Fast API, Spring Boot</span>
+                      <span>Excel, Git, Fast API, Spring Boot, Machine Learning</span>
                     </li>
                     <li className="d-flex">
                       <span>Interest:</span> <span>Traveling, Cricket</span>
