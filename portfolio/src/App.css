@@ -343,6 +343,8 @@
       align-items: center;
       justify-content: center;
       gap: 30px;
+      background-color: #31363F;
+      border-radius: 10px;
     }
 
     /* For tablets and smaller laptops */
